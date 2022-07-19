@@ -96,10 +96,10 @@ WSGI_APPLICATION = 'omnichannelOperator.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1h2ibprgbe0qk',
-        'USER': 'elqyoicloycifr',
-        'PASSWORD': '18a86b73e806f82cf7f6344e440793b143e943c9719d8581a2c70b9df3d9a45b',
-        'HOST': 'ec2-54-217-103-251.eu-west-1.compute.amazonaws.com',
+        'NAME': 'de2onqa13s802t',
+        'USER': 'ugtcqglcevvolo',
+        'PASSWORD': '873934c859b677e6fb94354c69131b8922c3fe969c06f9be4943d6f8d925a83e',
+        'HOST': 'ec2-54-246-185-161.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
