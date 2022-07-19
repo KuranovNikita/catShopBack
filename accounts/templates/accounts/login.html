@@ -1,0 +1,10 @@
+
+<h2>Введите логин и пароль для входа</h2> 
+<div class="row">
+    <div class="col-md-4">
+        <form action="{{action}}" method="POST"> {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">{{button}}</button>
+        </form>
+    </div>
+</div> 

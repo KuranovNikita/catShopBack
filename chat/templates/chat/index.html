@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'chat/css/style.css' %}">
+    <title>Document11</title>
+</head>
+<body>
+    <h2>Заголовок 2</h2>
+    <div>Текст дива и тд</div>
+    <div class="chat_widget_btn_wrapper">
+        <button class="chat_widget_btn_get">Получить сообщения</button>
+    </div>
+    <textarea class="chat_widget_textarea" name="text" id="text" cols="30" rows="3" placeholder="Введите текст..."></textarea>
+    <div class="chat_widget_btn_wrapper">
+        <button class="chat_widget_btn">Отправить сообщение</button>
+    </div>
+    <div class="chat_widget_messages"></div>
+    <script src="{% static 'chat/js/script.js' %}"></script>
+</body>
+</html>
